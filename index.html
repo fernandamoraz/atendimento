@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Psicóloga Fernanda Moraz | Atendimento Humanizado</title>
 
-  <meta
-    name="description"
-    content="Atendimento psicológico humanizado para adolescentes, adultos e casais. Agende sua conversa pelo WhatsApp."
-  />
+  <meta name="description"
+    content="Atendimento psicológico humanizado para adolescentes, adultos e casais. Agende sua conversa pelo WhatsApp." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +17,21 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header>
     <div class="container navbar">
-      <div class="logo">Fernanda Moraz</div>
+      <div class="logo">
+        <img src="logoFernanda.png" alt="Logo Fernanda Moraz">
+      </div>
 
       <nav>
         <ul>
           <li><a href="#inicio">Início</a></li>
-          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#servicos">Atendimentos</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#localizacao">Localização</a></li>
         </ul>
       </nav>
     </div>
@@ -50,30 +52,17 @@
           equilíbrio emocional, autoconhecimento e qualidade de vida.
         </p>
 
-        <div class="buttons">
-          <a
-            href="https://api.whatsapp.com/send/?phone=5549999772429&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento."
-            class="btn btn-primary"
-            target="_blank"
-          >
-            Agendar pelo WhatsApp
-          </a>
-
-          <a href="#sobre" class="btn btn-secondary">
-            Conhecer mais
-          </a>
-        </div>
       </div>
 
       <div class="hero-card">
         <div class="profile">
-          <img
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800&auto=format&fit=crop"
-            alt="Psicóloga Fernanda Moraz"
-          >
+          <img src="profissional.jpg" alt="Psicóloga Fernanda Moraz">
 
+          <!--  -->
           <h2>Fernanda Moraz</h2>
-          <p>Psicóloga e Psicoterapeuta • CRP 12/12122</p>
+          <p>Psicóloga e Psicoterapeuta</p>
+          <p>Ψ CRP 12/12122 Ψ</p>
+
         </div>
       </div>
 
@@ -125,6 +114,20 @@
             e flexibilidade de horários.
           </p>
         </div>
+        <div class="card">
+          <h3>Terapia Presencial</h3>
+          <p>
+            Sessões presenciais com privacidade e
+            ambiente acolhedor.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Culpa, Vergonha ou Raiva</h3>
+          <p>
+            A terapia te ajuda a compreender essa narrativa e
+            criar respostas mais conscientes e leves.
+          </p>
+        </div>
 
       </div>
     </div>
@@ -134,10 +137,7 @@
     <div class="container about">
 
       <div>
-        <img
-          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
-          alt="Consultório psicológico"
-        >
+        <img src="salaAtendimento.jpg">
       </div>
 
       <div class="about-text">
@@ -153,34 +153,69 @@
     </div>
   </section>
 
-  <section id="contato">
+
+  <section id="localizacao">
+
     <div class="container">
 
-      <div class="cta">
-        <h2>Agende sua primeira conversa</h2>
+      <div class="section-title">
+        <h2>Localização da Clínica</h2>
 
         <p>
-          Entre em contato para tirar dúvidas,
-          conhecer o processo terapêutico ou agendar um atendimento.
+          Um ambiente acolhedor, seguro e preparado para oferecer
+          conforto e privacidade durante o atendimento.
         </p>
+      </div>
 
-        <a
-          href="https://api.whatsapp.com/send/?phone=5549999772429&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento."
-          class="whatsapp"
-          target="_blank"
-        >
-          Conversar no WhatsApp
-        </a>
+      <div class="location-wrapper">
+
+        <div class="location-info">
+
+          <h3>Atendimento Presencial</h3>
+
+          <p>
+            Espaço preparado para proporcionar uma experiência
+            tranquila e humanizada em cada sessão.
+          </p>
+
+          <a href="https://maps.app.goo.gl/bVyjic7WBrngVHAn7" target="_blank" class="maps-btn">
+            Abrir no Google Maps
+          </a>
+
+        </div>
+
+        <div class="map-container">
+
+          <iframe src="https://www.google.com/maps?q=-26.766112,-53.173935&z=15&output=embed" width="100%" height="100%"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+
       </div>
 
     </div>
+
   </section>
+
+  </section>
+
+
 
   <footer>
     <div class="container">
       © 2026 Psicóloga Fernanda Moraz • Todos os direitos reservados
     </div>
   </footer>
+  <!-- BOTÃO FLUTUANTE WHATSAPP -->
 
+  <!-- BOTÃO FLUTUANTE -->
+
+  <a href="https://api.whatsapp.com/send/?phone=5549999772429&text=Olá,%20gostaria%20de%20agendar%20um%20atendimento."
+    class="floating-whatsapp" target="_blank" aria-label="WhatsApp">
+
+    <img src="whatsapp-icon.png" alt="WhatsApp" class="floating-whatsapp-icon">
+
+  </a>
 </body>
+
 </html>

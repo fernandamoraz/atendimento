@@ -31,6 +31,7 @@
           <li><a href="#inicio">Início</a></li>
           <li><a href="#servicos">Atendimentos</a></li>
           <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#faq">Perguntas</a></li>
           <li><a href="#localizacao">Localização</a></li>
         </ul>
       </nav>
@@ -173,7 +174,136 @@
 
     </div>
   </section>
+  <section id="faq">
 
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Perguntas Frequentes</h2>
+
+      <p>
+        Algumas dúvidas comuns sobre o processo terapêutico
+        e o acompanhamento psicológico.
+      </p>
+    </div>
+
+    <div class="faq-container">
+
+      <!-- FAQ 1 -->
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+
+          <span>Como saber se preciso de psicoterapia?</span>
+
+          <span class="faq-icon">⌄</span>
+
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Muitas pessoas procuram a psicoterapia apenas em momentos de crise,
+            mas ela também pode ser um espaço de autoconhecimento,
+            fortalecimento emocional e desenvolvimento pessoal.
+          </p>
+
+          <ul>
+            <li>Sentir ansiedade, tristeza, irritação ou angústia com frequência</li>
+
+            <li>Dificuldade para lidar com emoções ou relacionamentos</li>
+
+            <li>Sensação de sobrecarga, vazio ou cansaço emocional constante</li>
+
+            <li>Baixa autoestima ou dificuldade em se colocar como prioridade</li>
+
+            <li>Conflitos familiares, afetivos ou profissionais recorrentes</li>
+
+            <li>Mudanças importantes de vida, luto ou momentos de crise</li>
+
+            <li>Repetição de padrões que geram sofrimento</li>
+
+            <li>Necessidade de compreender melhor a si mesmo e suas emoções</li>
+          </ul>
+
+          <p>
+            A psicoterapia oferece um espaço acolhedor, ético e seguro
+            para que você possa ser ouvido, compreender sua história
+            e desenvolver novas perspectivas.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- FAQ 2 -->
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+
+          <span>Quanto tempo dura o tratamento?</span>
+
+          <span class="faq-icon">⌄</span>
+
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            A psicoterapia é um processo único e individual,
+            por isso não possui um tempo definido.
+          </p>
+
+          <p>
+            Cada pessoa possui sua própria história,
+            necessidades e objetivos dentro da terapia.
+          </p>
+
+          <p>
+            O acompanhamento é construído de forma conjunta
+            e respeitosa, considerando o momento e as necessidades
+            de cada paciente.
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- FAQ 3 -->
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+
+          <span>Qual o valor da sessão?</span>
+
+          <span class="faq-icon">⌄</span>
+
+        </button>
+
+        <div class="faq-answer">
+
+          <p>
+            Em respeito às diretrizes do Código de Ética da Psicologia,
+            os valores dos atendimentos não podem ser divulgados publicamente.
+          </p>
+
+          <p>
+            Entre em contato para receber informações
+            sobre honorários e formas de pagamento.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
   <section id="localizacao">
 
@@ -242,6 +372,24 @@
     <img src="whatsapp-icon.png" alt="WhatsApp" class="floating-whatsapp-icon">
 
   </a>
+
+  <script>
+
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+
+    const question = item.querySelector('.faq-question');
+
+    question.addEventListener('click', () => {
+
+      item.classList.toggle('active');
+
+    });
+
+  });
+
+</script>
 </body>
 
 </html>

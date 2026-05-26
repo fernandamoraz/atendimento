@@ -193,7 +193,7 @@
 
       <div class="faq-item">
 
-        <button class="faq-question">
+        <button type="button" class="faq-question">
 
           <span>Como saber se preciso de psicoterapia?</span>
 
@@ -241,7 +241,7 @@
 
       <div class="faq-item">
 
-        <button class="faq-question">
+        <button type="button" class="faq-question">
 
           <span>Quanto tempo dura o tratamento?</span>
 
@@ -373,7 +373,9 @@
 
   </a>
 
-  <script>
+ <script>
+
+document.addEventListener('DOMContentLoaded', function () {
 
   const faqItems = document.querySelectorAll('.faq-item');
 
@@ -388,6 +390,8 @@
     });
 
   });
+
+});
 
 </script>
 </body>

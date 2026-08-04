@@ -1303,9 +1303,9 @@ footer {
 
   .logo img {
 
-    width: 175px;
+    width: 480px; /* width: 175px;*/
 
-    max-height: 55px;
+    max-height: auto; /*max-height: 55px;*/
 
   }
 

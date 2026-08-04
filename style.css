@@ -131,9 +131,9 @@ header {
 
 .logo img {
 
-  width: 300px;
+  width: 750px; /*era 300*/
 
-  max-height: 85px;
+  max-height: 213px; /* era 85*/
 
   height: auto;
 
